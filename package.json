@@ -3,7 +3,7 @@
   "scripts": {
     "start": "webpack serve",
     "watch": "webpack --watch",
-    "build": "cross-env NODE_ENV=production webpack",
+    "build": "webpack",
     "build-dev": "webpack",
     "clean": "rmdir /s dist"
   },
